@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="292758" started-at="2022-03-23T14:47:27 EDT" finished-at="2022-03-23T14:52:20 EDT">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="292758" started-at="2022-03-23T14:47:27 EDT" finished-at="2022-03-23T14:52:20 EDT">
+      <class name="com.datadriver.framework.test.logintest.ZohoLoginTest">
+        <test-method status="PASS" signature="testZohoLoginTest(java.util.Hashtable)[pri:0, instance:com.datadriver.framework.test.logintest.ZohoLoginTest@5c4b]" name="testZohoLoginTest" duration-ms="45833" started-at="2022-03-23T14:47:36 EDT" data-provider="getZohoLogin_TestData" finished-at="2022-03-23T14:48:22 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Email Address=subhrajit.ray@yahoo.com, Password=Test@12345, Home Page Title=Zoho Home, Accounts Page Title=Zoho Accounts, Comments=Incorrect Email}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testZohoLoginTest -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.datadriver.framework.test.logintest.ZohoLoginTest@5c4b]" name="afterTest" is-config="true" duration-ms="10163" started-at="2022-03-23T14:48:22 EDT" finished-at="2022-03-23T14:48:32 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method status="PASS" signature="testZohoLoginTest(java.util.Hashtable)[pri:0, instance:com.datadriver.framework.test.logintest.ZohoLoginTest@5c4b]" name="testZohoLoginTest" duration-ms="74817" started-at="2022-03-23T14:48:32 EDT" data-provider="getZohoLogin_TestData" finished-at="2022-03-23T14:49:47 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Email Address=subhrajit.ray@gmail.com, Password=Test@54321, Home Page Title=Zoho Home, Accounts Page Title=Zoho Accounts, Comments=Incorrect Password}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testZohoLoginTest -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.datadriver.framework.test.logintest.ZohoLoginTest@5c4b]" name="afterTest" is-config="true" duration-ms="5029" started-at="2022-03-23T14:49:47 EDT" finished-at="2022-03-23T14:49:52 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method status="PASS" signature="testZohoLoginTest(java.util.Hashtable)[pri:0, instance:com.datadriver.framework.test.logintest.ZohoLoginTest@5c4b]" name="testZohoLoginTest" duration-ms="144169" started-at="2022-03-23T14:49:52 EDT" data-provider="getZohoLogin_TestData" finished-at="2022-03-23T14:52:16 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Email Address=subhrajit.ray@gmail.com, Password=Test@12345, Home Page Title=Zoho Home, Accounts Page Title=Zoho Accounts, Comments=Correct Login Credentials}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testZohoLoginTest -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.datadriver.framework.test.logintest.ZohoLoginTest@5c4b]" name="afterTest" is-config="true" duration-ms="1960" started-at="2022-03-23T14:52:16 EDT" finished-at="2022-03-23T14:52:18 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method status="PASS" signature="endReport()[pri:0, instance:com.datadriver.framework.test.logintest.ZohoLoginTest@5c4b]" name="endReport" is-config="true" duration-ms="2295" started-at="2022-03-23T14:52:18 EDT" finished-at="2022-03-23T14:52:20 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endReport -->
+      </class> <!-- com.datadriver.framework.test.logintest.ZohoLoginTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
